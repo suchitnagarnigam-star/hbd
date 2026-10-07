@@ -300,6 +300,39 @@
 
   /* modal body + typewriter (types once each open) */
   .fancy-body{ text-align:left; padding:6px 6px 10px; }
+
+  .milestones {
+    display: grid;
+    gap: 8px;
+    margin: 0 0 16px;
+    padding: 12px;
+    border-left: 2px solid rgba(255, 200, 221, 0.75);
+    background: rgba(255,255,255,0.04);
+  }
+
+  .milestone {
+    display: grid;
+    grid-template-columns: 76px 1fr;
+    gap: 10px;
+    align-items: baseline;
+    color: rgba(255,255,255,0.82);
+    font-size: 0.82rem;
+    line-height: 1.35;
+  }
+
+  .milestone strong {
+    color: #ffc8dd;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+  }
+
+  .tech-team-signoff {
+    display: block;
+    margin-top: 12px;
+    font-size: 0.78rem;
+    opacity: 0.8;
+  }
+
 /* tw-modal should wrap naturally and reserve space via hidden chars */
 .tw-modal{
   display:inline-block;
